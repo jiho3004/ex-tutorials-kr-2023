@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-Pruning Tutorial
+가지치기 튜토리얼
 =====================================
-**Author**: `Michela Paganini <https://github.com/mickypaganini>`_
+**저자**: `Michela Paganini <https://github.com/mickypaganini>`_
 
-State-of-the-art deep learning techniques rely on over-parametrized models 
-that are hard to deploy. On the contrary, biological neural networks are 
-known to use efficient sparse connectivity. Identifying optimal  
-techniques to compress models by reducing the number of parameters in them is 
-important in order to reduce memory, battery, and hardware consumption without 
-sacrificing accuracy. This in turn allows you to deploy lightweight models on device, and guarantee 
+최신 딥러닝 기술은 과도한 파라미터를 갖는 모델에 의존하며, 실제 배포하기도 어렵습니다.
+반면, 생물학적 신경망은 효율적이고 희소한 연결성을 사용하는 것으로 알려져 있습니다. 
+정확도를 희생하지 않고 파라미터 수를 줄여 모델을 압축시키는 최적의 기술을 알아내는 것은 메모리, 배터리, 하드웨어 소모를 줄이기 위해 중요합니다.
+"""
+"""
+This in turn allows you to deploy lightweight models on device, and guarantee 
 privacy with private on-device computation. On the research front, pruning is 
 used to investigate the differences in learning dynamics between 
 over-parametrized and under-parametrized networks, to study the role of lucky 
