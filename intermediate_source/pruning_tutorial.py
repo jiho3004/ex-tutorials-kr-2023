@@ -7,8 +7,6 @@
 최신 딥러닝 기술은 과도하게 많은 파라미터를 갖는 모델에 의존하며, 실제 배포하기도 어렵습니다.
 반면, 생물학적 신경망은 효율적이고 희소한 연결성을 사용하는 것으로 알려져 있습니다. 
 정확도 희생 없이 메모리, 배터리, 하드웨어 소모를 줄이기 위해서는, 파라미터 수를 줄여 모델을 압축시키는 최적의 기술이 중요합니다.
-"""
-"""
 This in turn allows you to deploy lightweight models on device, and guarantee 
 privacy with private on-device computation. On the research front, pruning is 
 used to investigate the differences in learning dynamics between 
